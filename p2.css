@@ -1,0 +1,140 @@
+
+    @media only screen and (max-width: 600px){
+        nav{
+            position: relative;
+            padding: 200px;
+            background-color: #000000;
+        }
+        body{
+            background-color: #000000;
+        }
+        .videoname{
+           position: relative;
+           margin-right: 50%;
+                }
+        
+    }
+    @media only screen and(min-width: 601px){
+
+    }
+    nav {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 0.6em;
+    width: 100%;
+    right: 0.6%;
+    
+   
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1 em;
+    margin: 1em;
+    width: 100%;
+    font-size: large;
+
+}
+body{
+    background-color: #000000;
+}
+video{
+    width: 100%;
+}
+#trailer{
+    width: 100%;
+}
+#aboutus{
+    position: relative;
+    margin-left: 60%;
+}
+#about1{
+    color: #fff;
+    position: relative;
+    top: -450px;
+    right: 75%;
+    font-size: 50px;
+}
+#about2{
+    color: #fff;
+    position: relative;
+    top: -440px;
+    right: 135%;
+    font-size: 1.8em;
+    width: 150%;
+    align-items: center;
+}
+#speakers{
+    position: relative;
+    bottom: 12em;
+}
+#speaker{
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+/***f.a.q-container***/
+.faq-container{
+          font: 18px/1.5 'Abel',system-ui, sans-serif;
+          padding: 0 2rem;
+          color: rgb(254, 254, 254);
+          position:relative;
+          bottom: 100em;
+}
+#faq{
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+details{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+          border: 1px solid rgb(238, 238, 238);
+  }
+  summary{
+    list-style-type: '✔  ';
+font-size: 1.25rem;
+font-weight: bold;
+cursor: pointer; 
+position: relative;
+      outline: none;
+      color: rgb(255, 255, 255);
+}
+summary::after{
+content: "🔻";
+padding: 0.5rem;
+position: absolute;
+right: 0.25rem;
+top: -0.5rem;
+color: rgb(255, 239, 239);
+}
+details[open]{
+      background: rgb(255, 254, 254);
+}
+details[open] summary{
+  color: rgb(0, 0, 0);
+}
+details[open] summary::after{
+content: "🔺";
+}
+/*** End specific styles ***/
+p{
+color: rgb(11, 8, 8);
+letter-spacing: 1.5;
+font-size: 1.54em
+}
+#contact{
+    text-align: center;
+    
+}
+#contactus{
+    color: #fff;
+    font-size: xx-large;
+}
+#contactdetails{
+    text-align: center;
+    color: #fff;
+}
+
